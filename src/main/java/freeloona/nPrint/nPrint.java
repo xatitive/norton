@@ -1,4 +1,4 @@
-package norton.nPrint;
+package freeloona.nPrint;
 
 import java.io.PrintStream;
 

@@ -1,4 +1,4 @@
-package norton.nScanner;
+package freeloona.nScanner;
 
 import java.util.Scanner;
 

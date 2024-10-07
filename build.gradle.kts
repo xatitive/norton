@@ -3,7 +3,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "norton"
+group = "freeloona"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -14,7 +14,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/xatitive/norton")
+            url = uri("https://maven.pkg.github.com/freeloona/norton")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")

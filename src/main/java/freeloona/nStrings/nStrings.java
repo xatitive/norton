@@ -1,6 +1,6 @@
-package norton.nStrings;
+package freeloona.nStrings;
 
-import norton.nPrint.*;
+import freeloona.nPrint.nPrint;
 
 public final class nStrings {
   private nStrings() {}

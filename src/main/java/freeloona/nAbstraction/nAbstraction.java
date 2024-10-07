@@ -1,8 +1,8 @@
-package norton.nAbstraction;
+package freeloona.nAbstraction;
 
-import norton.nPrint.nPrint;
-import norton.nScanner.nScanner;
-import norton.nStrings.nStrings;
+import freeloona.nPrint.nPrint;
+import freeloona.nScanner.nScanner;
+import freeloona.nStrings.nStrings;
 
 
 public class nAbstraction {
