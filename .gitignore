@@ -35,6 +35,9 @@ bin/
 /nbdist/
 /.nb-gradle/
 
+### Maven Credentials ###
+
+
 ### VS Code ###
 .vscode/
 

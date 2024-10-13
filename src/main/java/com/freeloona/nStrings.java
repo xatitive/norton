@@ -1,6 +1,4 @@
-package freeloona.nStrings;
-
-import freeloona.nPrint.nPrint;
+package com.freeloona;
 
 public final class nStrings {
   private nStrings() {}

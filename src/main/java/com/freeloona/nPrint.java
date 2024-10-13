@@ -1,4 +1,4 @@
-package freeloona.nPrint;
+package com.freeloona;
 
 import java.io.PrintStream;
 

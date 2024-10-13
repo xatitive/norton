@@ -1,8 +1,4 @@
-package freeloona.nAbstraction;
-
-import freeloona.nPrint.nPrint;
-import freeloona.nScanner.nScanner;
-import freeloona.nStrings.nStrings;
+package com.freeloona;
 
 
 public class nAbstraction {

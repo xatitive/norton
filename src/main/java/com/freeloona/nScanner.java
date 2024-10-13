@@ -1,4 +1,4 @@
-package freeloona.nScanner;
+package com.freeloona;
 
 import java.util.Scanner;
 
