@@ -2,12 +2,18 @@ package com.freeloona;
 
 
 public class nAbstraction {
-  public static void print(String printInput) {
-    nPrint.print.print(printInput);
-  }
 
-  public static void println(String printInput) {
-    nPrint.print.println(printInput);
+  public static void print(@org.jetbrains.annotations.Nullable Object printInput) {
+    nPrint.print(printInput);
+  }
+  public static void println(@org.jetbrains.annotations.Nullable Object printInput) {
+    nPrint.println(printInput);
+  }
+  public static void printf(@org.jetbrains.annotations.NotNull String format, Object... args) {
+    nPrint.printf(format, args);
+  }
+  public static void printf(@org.jetbrains.annotations.Nullable java.util.Locale l, String format, Object ... args) {
+    nPrint.printf(l, format, args);
   }
 
   public static void spacer() {
@@ -93,5 +99,14 @@ public class nAbstraction {
   public static void clearTerminal() {
     nStrings.clearConsole();
     nPrint.flush();
+  }
+
+  public static Object reverseArray(Object[] array) {
+      for (int i = 0; i < array.length / 2; i++) {
+        var temp = array[i];
+        array[i] = array[array.length - 1 - i];
+        array[array.length - 1 - i] = temp;
+      }
+      return array;
   }
 }

@@ -36,7 +36,9 @@ bin/
 /.nb-gradle/
 
 ### Maven Credentials ###
+settings.xml
 
+.gitignore
 
 ### VS Code ###
 .vscode/
